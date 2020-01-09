@@ -89,6 +89,9 @@ body {
   padding: 58px 0px 60px;
 }
 
+.section p {
+  font-size: 19px;
+}
 .max-width {
   width: 80%;
   margin: auto;
