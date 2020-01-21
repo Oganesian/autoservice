@@ -12,6 +12,38 @@ body {
   color: #222222;
 }
 
+footer {
+  background: #373d44;
+  min-height: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-links-container {
+  padding-top: 30px!important;
+  min-height: 30px;
+}
+
+.footer-links {
+  float: left;
+  width: 23%;
+  margin-right: 2%;
+}
+
+.footer-links a {
+  color: #e9e7e7;
+  font-weight: bolder;
+}
+
+.footer-links a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+#footer-links-container-2{
+  padding: 0;
+  margin-top: 20px;
+}
+
 .slider {
   position: relative;
   overflow: hidden;
@@ -98,7 +130,7 @@ body {
   max-width: 1240px;
 }
 
-.navbar {
+.mynavbar {
   font-size: 18px;
   min-height: 59px;
   list-style-type: none;
@@ -122,7 +154,7 @@ body {
   margin: 15px auto;
 }
 
-.navbar-toggle {
+.mynavbar-toggle {
   position: absolute;
   top: 15px;
   left: 15px;
@@ -159,7 +191,7 @@ h1 {
   border-top: 1px solid #dfdfdf;
 }
 
-.container {
+.my-container {
   width: 100%;
 }
 
@@ -298,12 +330,13 @@ li a {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 24px 50px;
+  padding: 21px 50px;
   text-decoration: none;
 }
 
 li a:hover {
   background: #3da76c;
+  text-decoration: none;
 }
 
 li.dropdown {
@@ -392,7 +425,7 @@ li.dropdown {
   font-size: 18px;
 }
 
-.work-info h2 {
+.work-info h4 {
   background: #05aa4d;
   width: min-content;
   padding: 5px;
@@ -421,7 +454,7 @@ li.dropdown {
 }
 
 @media screen and (min-width: 768px) {
-  .navbar {
+  .mynavbar {
     display: flex;
     justify-content: space-between;
     padding-bottom: 0;
@@ -444,7 +477,7 @@ li.dropdown {
     margin: 0;
   }
 
-  .navbar-toggle {
+  .mynavbar-toggle {
     display: none;
   }
 

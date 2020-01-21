@@ -1,8 +1,8 @@
 $(document).ready(function() {
 let mainNav = document.getElementById('js-menu');
-let navBarToggle = document.getElementById('js-navbar-toggle');
+let mynavbarToggle = document.getElementById('js-mynavbar-toggle');
 
-navBarToggle.addEventListener('click', function () {
+mynavbarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
 });
 });

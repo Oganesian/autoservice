@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
   <script src="js/script.js" type="text/javascript"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <title>Автосервис</title>
 </head>
 
 <body>
-  <div class="container menu-container">
-    <nav class="navbar">
-      <span class="navbar-toggle" id="js-navbar-toggle"></span>
+  <div class="my-container menu-container">
+    <nav class="mynavbar">
+      <span class="mynavbar-toggle" id="js-mynavbar-toggle"></span>
       <ul class="main-nav" id="js-menu">
         <li>
           <a href="#" class="nav-links">Диагностика</a>
@@ -48,20 +52,20 @@
         <div style="background-image: url(https://avtoservispiter.ru/upload/iblock/a39/a392bcfc7e569e9f022462858646bb90.jpg);"></div>
       </div>
       <div class="slider__item">
-        <div style=" background-image: url(https://avtoservispiter.ru/upload/iblock/44f/44f98ee65ef5a490a913567b8d4acb2e.jpg);">2</div>
+        <div style=" background-image: url(https://avtoservispiter.ru/upload/iblock/44f/44f98ee65ef5a490a913567b8d4acb2e.jpg);"></div>
       </div>
       <div class="slider__item">
-        <div style="background: violet;">3</div>
+        <div style="background: violet;"></div>
       </div>
       <div class="slider__item">
-        <div style="background: coral;">4</div>
+        <div style="background: coral;"></div>
       </div>
     </div>
     <a class="slider__control slider__control_left" href="#" role="button"></a>
     <a class="slider__control slider__control_right" href="#" role="button"></a>
   </div>
   <script src="js/slider.js" type="text/javascript"></script>
-  <div class="container grey">
+  <div class="my-container grey">
     <div class="section max-width">
       <h1>Автосервис Химки</h1>
       <div class="grid margin-top">
@@ -69,7 +73,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info">
-              <h2>Техническое обслуживание</h2>
+              <h4>Техническое обслуживание</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -78,7 +82,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info">
-              <h2>Ремонт автомобиля</h2>
+              <h4>Ремонт автомобиля</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -87,7 +91,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info">
-              <h2>Компьютерная диагностика</h2>
+              <h4>Компьютерная диагностика</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -96,7 +100,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info" style="bottom: -56px">
-              <h2>Консультация по техническим вопросам</h2>
+              <h4>Консультация по техническим вопросам</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -105,7 +109,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info">
-              <h2>Заказ запчастей</h2>
+              <h4>Заказ запчастей</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -114,7 +118,7 @@
           <div class="service-big-pic-wrap">
             <img src="https://avtoservispiter.ru/upload/resize_cache/iblock/a45/500_500_1/a456cc1299fb76db917a2d3e33bcb2e8.jpg" />
             <div class="work-info">
-              <h2>Индивидуальный подход</h2>
+              <h4>Индивидуальный подход</h4>
             </div>
             <div class="overlay"></div>
           </div>
@@ -122,67 +126,111 @@
       </div>
     </div>
   </div>
-  <div class="container grey-2 with-top-border">
+  <div class="my-container grey-2 with-top-border">
     <div class="section max-width">
       <div class="grid" id="cards-grid">
         <div class="service-card" id="mechanic-card">
           <div class="service-pic" id="mechanic"></div>
-          <div class="service-text"><p class="auto-margin">Техническое обслуживание</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Техническое обслуживание</p>
+          </div>
         </div>
         <div class="service-card" id="diskbrake-card">
           <div class="service-pic" id="diskbrake"></div>
-          <div class="service-text"><p class="auto-margin">Тормозная система</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Тормозная система</p>
+          </div>
         </div>
         <div class="service-card" id="tools-card">
           <div class="service-pic" id="tools"></div>
-          <div class="service-text"><p class="auto-margin">Сервисные работы</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Сервисные работы</p>
+          </div>
         </div>
         <div class="service-card" id="exhaust-card">
           <div class="service-pic" id="exhaust"></div>
-          <div class="service-text"><p class="auto-margin">Выхлопная система</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Выхлопная система</p>
+          </div>
         </div>
         <div class="service-card" id="diagnostic-card">
           <div class="service-pic" id="diagnostic"></div>
-          <div class="service-text"><p class="auto-margin">Диагностика</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Диагностика</p>
+          </div>
         </div>
         <div class="service-card" id="battery-card">
           <div class="service-pic" id="battery"></div>
-          <div class="service-text"><p class="auto-margin">Ремонт электрооборудования</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Ремонт электрооборудования</p>
+          </div>
         </div>
         <div class="service-card" id="wheels-card">
           <div class="service-pic" id="wheels"></div>
-          <div class="service-text"><p class="auto-margin">Ходовая часть</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Ходовая часть</p>
+          </div>
         </div>
         <div class="service-card" id="clima-card">
           <div class="service-pic" id="clima"></div>
-          <div class="service-text"><p class="auto-margin">Кондиционер</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Кондиционер</p>
+          </div>
         </div>
         <div class="service-card" id="engine-card">
           <div class="service-pic" id="engine"></div>
-          <div class="service-text"><p class="auto-margin">Двигатель</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Двигатель</p>
+          </div>
         </div>
         <div class="service-card" id="cosmetic-card">
           <div class="service-pic" id="cosmetic"></div>
-          <div class="service-text"><p class="auto-margin">Косметический ремонт</p></div>
+          <div class="service-text">
+            <p class="auto-margin">Косметический ремонт</p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container with-top-border">
+  <div class="my-container with-top-border">
     <div class="section max-width">
       <h1>О нас</h1><br>
       <p>Мастерская набирает клиентов для долгосрочного сотрудничества.</p><br>
 
-      <p>Если вам хотелось бы иметь надежного личного мастера, который будет относиться бережно и с заботой о вашем автомобиле, а также окажет вам техническую поддержку в любой момент и проконсультирует вас по разным техническим вопросам — тогда вам обязательно нужно посетить нашу мастерскую.</p><br>
+      <p>Если вам хотелось бы иметь надежного личного мастера, который будет относиться бережно и с заботой о вашем автомобиле, а также окажет вам техническую поддержку в любой момент и проконсультирует вас по разным техническим вопросам — тогда вам
+        обязательно нужно посетить нашу мастерскую.</p><br>
 
-      <p>Наша мастерская рассчитана не на  широкий круг потребителей, а на тех, кто желает долгосрочное сотрудничество и кто хотел бы найти личного мастера, которому доверит своего «железного коня».</p><br>
+      <p>Наша мастерская рассчитана не на широкий круг потребителей, а на тех, кто желает долгосрочное сотрудничество и кто хотел бы найти личного мастера, которому доверит своего «железного коня».</p><br>
 
       <p>Мастерская небольшая, поэтому используется не потоковый метод общения и ремонта, а индивидуальный подход к каждому лично, и наша основная задача заключается не в том, чтобы навязать вам услуги, а в том, чтобы вы остались довольны.</p><br>
     </div>
   </div>
-  <div class="container with-top-border">
-    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8b195222ba404b22de60441249b91dcfb680d877c9300ce59ff276b408c8e4b3&amp;height=600&amp;lang=ru_RU&amp;scroll=false"></script>
+  <div class="my-container with-top-border">
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8b195222ba404b22de60441249b91dcfb680d877c9300ce59ff276b408c8e4b3&amp;height=600&amp;lang=ru_RU&amp;scroll=false">
+    </script>
   </div>
+
+  <footer>
+    <div class="footer-links-container max-width">
+      <div class="footer-links">
+        <a href="#" class="">Диагностика</a>
+      </div>
+      <div class="footer-links">
+        <a href="#" class="">Ремонт</a>
+      </div>
+      <div class="footer-links">
+        <a href="#" class="">Цены</a>
+      </div>
+      <div class="footer-links">
+        <a href="#" class="">Техническое обслуживание</a>
+      </div>
+    </div>
+    <div class="footer-links-container max-width" id="footer-links-container-2">
+      <div class="footer-links">
+        <a href="#" class="">Контакты</a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
