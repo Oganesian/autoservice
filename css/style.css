@@ -8,7 +8,6 @@ body {
   font-family: 'Roboto', arial, sans-serif;
   font-weight: 100;
   color: #fff;
-  height: 3000px;
   color: #222222;
 }
 
@@ -27,10 +26,10 @@ p {
   overflow: hidden;
 }
 
-.footer-links {
+.footer-links{
   float: left;
-  width: 23%;
-  margin-right: 2%;
+  width: 80%;
+  padding: 10px 0px;
 }
 
 .text-label, .contact-text {
@@ -68,8 +67,7 @@ p {
 }
 
 #footer-links-container-2{
-  padding: 0;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 .slider {
@@ -474,6 +472,10 @@ li.dropdown {
   padding: 5px;
 }
 
+#header-cont img{
+  width: 200px;
+}
+
 .service-big-pic-wrap{
   position: relative;
   overflow: hidden;
@@ -503,6 +505,15 @@ li.dropdown {
     padding-bottom: 0;
     height: 70px;
     align-items: center;
+  }
+
+  .footer-links {
+    width: 23%;
+    margin-right: 2%;
+  }
+
+  #footer-links-container-2{
+    margin-top: 20px;
   }
 
   ul {
@@ -576,4 +587,12 @@ li.dropdown {
     width: 100%;
     text-align: center;
   }
+
+  .auto-margin {
+    margin: auto!important;
+  }
+}
+
+@media (max-width: 320px) {
+
 }
