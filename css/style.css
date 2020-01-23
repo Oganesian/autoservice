@@ -15,18 +15,46 @@ body {
 footer {
   background: #373d44;
   min-height: 100px;
-  padding-bottom: 50px;
+  padding: 50px 0px;
+}
+
+p {
+  margin: 0px!important;
 }
 
 .footer-links-container {
-  padding-top: 30px!important;
   min-height: 30px;
+  overflow: hidden;
 }
 
 .footer-links {
   float: left;
   width: 23%;
   margin-right: 2%;
+}
+
+.text-label, .contact-text {
+  float: left;
+  padding: 5px 3px;
+}
+
+.text-label{
+  padding-top: 3px;
+  padding-left: 0px;
+  padding-right: 8px;
+}
+
+#address-text{
+  margin-left: -2px;
+  padding-top: 4px;
+}
+
+.text-label img{
+  width: 15px;
+}
+
+.contact-text{
+  width: 220px;
 }
 
 .footer-links a {
@@ -222,6 +250,10 @@ h1 {
   font-weight: bold;
 }
 
+.min-content-width {
+  width: min-content;
+}
+
 .service-card:hover{
   box-shadow: 0px 0px 9px 1px rgba(0,0,0,0.75);
   background-color: #fff;
@@ -380,12 +412,23 @@ li.dropdown {
   grid-template-columns: repeat(auto-fit, minmax(341px, 1fr));
 }
 
+#contacts-links{
+  width: max-content;
+  color: #e9e7e7;
+}
+
 .margin-top{
   margin-top: 80px;
 }
 
 .service-big-pic{
   overflow: hidden;
+  height: 250px;
+}
+
+.contact-info{
+  overflow: hidden;
+  font-size: 14px;
 }
 
 .service-big-pic:hover {
@@ -440,7 +483,7 @@ li.dropdown {
   transition: transform .6s ease;
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 250px;
 }
 
 .auto-margin {
