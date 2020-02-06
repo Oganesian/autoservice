@@ -248,6 +248,10 @@ h1 {
   font-size: 2.133em;
 }
 
+.light-grey {
+  background: #fafafa;
+}
+
 .grey {
   background: #eeeeee;
 }
@@ -331,6 +335,37 @@ h1 {
 
 .grid-text p{
   font-size: 15px;
+}
+
+.margin-top-bottom-20{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.blockquote{
+  border: 1px solid #d5d4d4;
+  border-left: 4px solid #00ba00;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.blockquote p{
+  font-size: 16px!important;
+}
+
+.active {
+  background: #1dc266!important;
+  border-bottom: #1dc266!important;
+}
+
+.card-header{
+  font-weight: bold;
+}
+
+#checkmark-list li{
+  background: url(../src/checkmark.svg) no-repeat left 1px;
+  padding-left: 40px;
 }
 
 #mechanic {
