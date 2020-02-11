@@ -72,6 +72,19 @@ p {
   margin-left: 50px;
 }
 
+.bg-primary-2{
+  background: #1b9e77;
+  color: #fff;
+}
+
+.bg-primary-2 th{
+  font-weight: normal;
+}
+
+.bordered-table{
+  border: 1px solid rgba(0,0,0,.125);
+}
+
 .sidebar{
   width: 20%;
   float:left;
@@ -166,7 +179,8 @@ p {
 }
 
 .small-text{
-  font-size: 17px!important;
+  font-size: 16px!important;
+  padding: 10px 0px;
 }
 
 .section p {
@@ -311,6 +325,7 @@ h1 {
 }
 #advantages-grid{
   margin-top: 35px;
+  margin-bottom: 35px;
   grid-template-columns: repeat(auto-fit, minmax(291px, 1fr));
 }
 
@@ -337,8 +352,7 @@ h1 {
   font-size: 15px;
 }
 
-.margin-top-bottom-20{
-  margin-bottom: 20px;
+.margin-top-20{
   margin-top: 20px;
 }
 
@@ -347,7 +361,6 @@ h1 {
   border-left: 4px solid #00ba00;
   padding: 15px 30px;
   border-radius: 5px;
-  margin-top: 30px;
 }
 
 .blockquote p{
@@ -366,6 +379,11 @@ h1 {
 #checkmark-list li{
   background: url(../src/checkmark.svg) no-repeat left 1px;
   padding-left: 40px;
+}
+
+#checkmark-list-2 li{
+  background: url(../src/checkmark-2.png) no-repeat left 11px;
+  padding-left: 30px;
 }
 
 #mechanic {
@@ -531,6 +549,10 @@ h1 {
 
 .margin-top{
   margin-top: 80px;
+}
+
+.margin-bottom {
+  margin-bottom: 30px;
 }
 
 .service-big-pic{
