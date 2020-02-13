@@ -86,7 +86,8 @@ p {
   margin: 0!important;
 }
 
-.table td {
+.table td,
+.table th {
   vertical-align: middle!important;
 }
 
@@ -368,8 +369,6 @@ h1 {
 }
 
 .blockquote{
-  border: 1px solid #d5d4d4;
-  border-left: 4px solid #00ba00;
   padding: 25px 40px;
   border-radius: 5px;
 }
@@ -378,7 +377,16 @@ h1 {
   font-size: 17px!important;
 }
 
+.quote-positive {
+  border: 1px solid rgba(91,177,71,0.4);
+  border-left: 4px solid #00ba00;
+}
 
+.quote-negative {
+  border: 1px solid rgba(210,21,21,0.4);
+  border-left: 4px solid #d21515;
+  color: #bb3a3a;
+}
 
 .active {
   background: #1dc266!important;
