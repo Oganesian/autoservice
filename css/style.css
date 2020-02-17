@@ -251,7 +251,6 @@ ol li{
   list-style-type: none;
   margin: auto;
   padding: 0;
-  overflow: hidden;
 }
 
 .main-nav {
@@ -262,6 +261,34 @@ ol li{
 .nav-links {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.9);
+  padding: 22px 50px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9!important;
+  min-width: 280px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black!important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #e9e7e7;
+  width: 100%;
+}
+
+.dropdown-content a:hover {
+  color: #13bb5d!important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .main-nav li {
@@ -359,6 +386,7 @@ h1 {
 
 .min-content-width {
   width: min-content;
+  word-break: normal;
 }
 
 .service-card:hover{
@@ -408,6 +436,7 @@ h1 {
 .blockquote{
   padding: 25px 40px;
   border-radius: 5px;
+  text-align: center;
 }
 
 .blockquote p{
@@ -545,10 +574,12 @@ h1 {
 
 .main-nav li a {
   display: inline-block;
-  color: white;
   text-align: center;
-  padding: 21px 50px;
   text-decoration: none;
+}
+
+.nav-links{
+  color: white!important;
 }
 
 .main-nav li:hover {
@@ -560,35 +591,18 @@ h1 {
   display: inline-block;
 }
 
+a {
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+.list-group a{
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
 .list-group-item:hover{
   color: #1dc266;
   cursor: pointer;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 190px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-  border-bottom: 1px solid #e9e7e7;
-}
-
-.dropdown-content a:hover {
-  background-color: #f1f1f1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
 }
 
 .grid {
@@ -664,7 +678,6 @@ h1 {
 
 .work-info h4 {
   background: #05aa4d;
-  width: min-content;
   padding: 5px;
 }
 
