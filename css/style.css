@@ -22,6 +22,24 @@ p {
   margin: 0px!important;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-weight: normal!important;
+}
+
+ol {
+  padding-top: 10px;
+  padding-inline-start: 40px;
+}
+
+ol li{
+  padding-left: 8px;
+}
+
 .footer-links-container {
   min-height: 30px;
   overflow: hidden;
@@ -90,6 +108,12 @@ p {
 .table td,
 .table th {
   vertical-align: middle!important;
+}
+
+.table-2 td{
+  padding: 30px 10px!important;
+  text-align: center;
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 .table-container{
@@ -211,7 +235,14 @@ p {
 .max-width, .max-width-2 {
   width: 80%;
   margin: auto;
+}
+
+.max-width{
   max-width: 1240px;
+}
+
+.max-width-2{
+  max-width: 1320px;
 }
 
 .mynavbar {
@@ -702,6 +733,15 @@ h1 {
   li a {
     padding: 24px 34px;
   }
+  #advantages-grid{
+    width: 98%;
+    margin: auto;
+    margin-top: 35px;
+  }
+
+  #advantages-grid div{
+    margin: auto;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -746,7 +786,7 @@ h1 {
     color: rgba(255, 255, 255, 1);
   }
   #advantages-grid {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))!important;
+      grid-template-columns: repeat(auto-fit, minmax(311px, 1fr))!important;
   }
 }
 
@@ -797,7 +837,7 @@ h1 {
   .grid-text{
     width: 235px;
   }
-  
+
   #cards-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
