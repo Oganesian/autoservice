@@ -5,10 +5,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans:400,500" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../../css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
-  <script src="../js/script.js" type="text/javascript"></script>
+  <script src="../../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+  <script src="../../js/script.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -20,15 +20,15 @@
     <nav class="mynavbar">
       <span class="mynavbar-toggle" id="js-mynavbar-toggle"></span>
       <ul class="main-nav" id="js-menu">
-        <li class="dropdown active-nav">
-          <a href="../diagnostika/" class="nav-links">Диагностика</a>
+        <li class="dropdown">
+          <a href="../../diagnostika/" class="nav-links">Диагностика</a>
           <div class="dropdown-content">
-            <a href="computer-diagnostics/">Компьютерная диагностика</a>
-            <a href="ebu/">Диагностика ЭБУ</a>
-            <a href="engine-diagnostics/">Диагностика двигателя</a>
-            <a href="diagnostics-of-electronic-systems/">Диагностика электронных систем</a>
-            <a href="complex-diagnostics/">Комплексная диагностика</a>
-            <a href="buy-sell-diagnostics/">Диагностика при купле-продаже</a>
+            <a href="../../diagnostika/computer-diagnostics/">Компьютерная диагностика</a>
+            <a href="../../diagnostika/ebu/">Диагностика ЭБУ</a>
+            <a href="../../diagnostika/engine-diagnostics/">Диагностика двигателя</a>
+            <a href="../../diagnostika/diagnostics-of-electronic-systems/">Диагностика электронных систем</a>
+            <a href="../../diagnostika/complex-diagnostics/">Комплексная диагностика</a>
+            <a href="../../diagnostika/buy-sell-diagnostics/">Диагностика при купле-продаже</a>
           </div>
         </li>
         <li class="dropdown">
@@ -45,8 +45,14 @@
             <a href="../../car-repair/cooling-system/">Ремонт системы охлаждения</a>
           </div>
         </li>
-        <li>
-          <a href="#" class="nav-links">ТО</a>
+        <li class="dropdown">
+          <a href="../technical-service/" class="nav-links active-nav">ТО</a>
+          <div class="dropdown-content">
+            <a class="active" href="../oil-change/">Замена масла</a>
+            <a href="../headlights-control/">Регулировка света фар</a>
+            <a href="../service-works/">Сервисные работы</a>
+            <a href="../antifreeze-replacement/">Аппаратная замена антифриза</a>
+          </div>
         </li>
         <li>
           <a href="#" class="nav-links">Цены</a>
@@ -60,43 +66,30 @@
 
   <div class="my-container light-grey">
     <div class="section max-width-2">
-      <h1 class="margin-bottom">Профессиональная диагностика автомобиля</h1>
+      <h1 class="margin-bottom">Техническое обслуживание</h1>
       <div class="sidebar">
         <div class="card">
           <div class="card-header">
             Услуги
           </div>
           <ul class="list-group list-group-flush">
-            <a href="computer-diagnostics/"><li class="list-group-item">Компьютерная диагностика</li></a>
-            <a href="ebu/"><li class="list-group-item">Диагностика ЭБУ</li></a>
-            <a href="engine-diagnostics/"><li class="list-group-item">Диагностика двигателя</li></a>
-            <a href="diagnostics-of-electronic-systems/"><li class="list-group-item">Диагностика электронных систем</li></a>
-            <a href="complex-diagnostics/"><li class="list-group-item">Комплексная диагностика</li></a>
-            <a href="buy-sell-diagnostics/"><li class="list-group-item">Диагностика при купле-продаже</li></a>
+            <a href="../oil-change/"><li class="list-group-item active">Замена масла</li></a>
+            <a href="../headlights-control/"><li class="list-group-item">Регулировка света фар</li></a>
+            <a href="../service-works/"><li class="list-group-item">Сервисные работы</li></a>
+            <a href="../antifreeze-replacement/"><li class="list-group-item">Аппаратная замена антифриза</li></a>
           </ul>
         </div>
       </div>
       <div class="main-content">
-        <div class="margin-bottom">
-          <img class="width-100" src="../src/diagnostic.jpeg" alt="Диагностика автомобиля">
-        </div>
-        <p class="small-text">Диагностику автомобиля в Санкт-Петербурге осуществляют опытные мастера компании «Автодоктор в Старбеево». В зависимости от специфики задачи у нас возможна полная диагностика. Для того, чтобы провести проверку машины перед покупкой, выполняются отдельные виды проверки — они направлены на выявление скрытых дефектов, обследование состояния кузова, двигателя, подвески, электронных систем. Вы можете заказать в нашем автосервисе диагностику автомобилей как отечественных, так и зарубежных марок, выполняя все виды диагностики.</p>
-        <ul class="list-normal">
-          <li>Визуальный осмотр — он позволяет обнаружить внешние дефекты и повреждения, проверить состояние кузовной части, оценить уровень технических жидкостей, обнаружить наличие течей и т. д.</li>
-          <li>Компьютерная диагностика позволяет с использованием сканеров и другого электронного оборудования считать и расшифровать коды и ошибки с бортовых электронных систем без необходимости разборки узлов и механизмов автомобиля.</li>
-          <li>Диагностика двигателя выполняется способом визуального осмотра, с использованием измерительных приборов (например, при замере компрессии), а также с помощью компьютерного оборудования.</li>
-          <li>Проверка ходовой части, передней и задней подвесок, люфтов рулевого управления.</li>
-          <li>Осмотр тормозной, топливной, выхлопной и других систем.</li>
-          <li>Диагностика углов развал-схождения.</li>
-          <li>Проверка ЛКМ на предмет возможных скрытых повреждений битого кузова.</li>
-          <li>Выявление посторонних шумов, в том числе с использованием стетоскопа.</li>
-          <li>Диагностика состояния кондиционера, тестовый прогон на предмет выявления утечки рабочей жидкости.</li>
+        <ul class="list-group">
+          <li class="none-hover-list-group-item">Карданный вал (снять/поставить)(1шт.) от 800 рублей</li>
         </ul>
+        <h3 class="margin-top-20">Цены на ремонт трансмиссии автомобиля в наших автосервисах</h3>
         <h3 id="advantages-header">Преимущества</h3>
         <div class="grid" id="advantages-grid">
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/auto.svg" alt="">
+              <img src="../../src/auto.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Универсальность</h5>
@@ -105,7 +98,7 @@
           </div>
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/gearshift.svg" alt="">
+              <img src="../../src/gearshift.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Оснащенность</h5>
@@ -114,7 +107,7 @@
           </div>
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/geldboerse.svg" alt="">
+              <img src="../../src/geldboerse.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Выгодные цены</h5>
@@ -123,7 +116,7 @@
           </div>
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/schild.svg" alt="">
+              <img src="../../src/schild.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Гарантийный сервис</h5>
@@ -132,7 +125,7 @@
           </div>
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/uhr.svg" alt="">
+              <img src="../../src/uhr.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Пунктуальность</h5>
@@ -141,7 +134,7 @@
           </div>
           <div class="grid-card">
             <div class="grid-img">
-              <img src="../src/autoteile.svg" alt="">
+              <img src="../../src/autoteile.svg" alt="">
             </div>
             <div class="grid-text">
               <h5>Подбор запчастей</h5>
@@ -159,7 +152,7 @@
   </div>
 
   <footer>
-    <div class="footer-links-container max-width-2">
+    <div class="footer-links-container max-width">
       <div class="footer-links">
         <a href="#" class="">Диагностика</a>
       </div>
@@ -178,7 +171,7 @@
         <a href="#" class="">Контакты</a>
         <div class="contact-info">
           <div class="text-label" id="address-text">
-            <img src="../src/marker.svg">
+            <img src="../../src/marker.svg">
           </div>
           <div class="contact-text">
             <p>Ул. Лизы Чайкиной 22, Старбеево, г. Химки</p>
@@ -186,7 +179,7 @@
         </div>
         <div class="contact-info">
           <div class="text-label">
-            <img src="../src/phone.svg">
+            <img src="../../src/phone.svg">
           </div>
           <div class="contact-text">
             <p>8 915 005 46 60</p>
@@ -194,7 +187,7 @@
         </div>
         <div class="contact-info">
           <div class="text-label">
-            <img src="../src/phone.svg">
+            <img src="../../src/phone.svg">
           </div>
           <div class="contact-text">
             <p>8 977 269 92 42</p>
